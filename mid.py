@@ -26,9 +26,11 @@ def mid(a, b):
     n = a * b
     fi = (a-1)*(b-1)
 
-    for e in range(69, fi):
+    '''for e in range(69, fi):
         if euclid(e, fi) == 1:
-            break
+            break'''
+
+    e = 433
 
     gcdex(e, fi)
     d = result
